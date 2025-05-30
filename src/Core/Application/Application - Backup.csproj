@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <RootNamespace>Microsoft-Teams-Assist.Application</RootNamespace>
+    <AssemblyName>Microsoft-Teams-Assist.Application</AssemblyName>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Domain\Domain.csproj" />
+    <ProjectReference Include="..\Shared\Shared.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Common\Models\Request\" />
+    <Folder Include="Nexus\LookUp\Models\Request\" />
+    <Folder Include="Email\Models\" />
+    <Folder Include="Nexus\Identity\Roles\Models\Response\" />
+  </ItemGroup>
+
+</Project>

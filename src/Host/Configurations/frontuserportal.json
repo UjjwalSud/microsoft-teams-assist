@@ -1,0 +1,8 @@
+{
+  "FrontUserPortalSettings": {
+    "Urls": {
+      "RegistrationConfirmUrl": "http://localhost:5173/auth/confirm-mail",
+      "ForgotPasswordUrl": "http://localhost:5173/auth/reset-password"
+    }
+  }
+}

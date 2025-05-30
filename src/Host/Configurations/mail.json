@@ -1,0 +1,10 @@
+{
+  "MailSettings": {
+    "DisplayName": "",
+    "From": "",
+    "Host": "",
+    "Password": "",
+    "Port": 587,
+    "UserName": ""
+  }
+}

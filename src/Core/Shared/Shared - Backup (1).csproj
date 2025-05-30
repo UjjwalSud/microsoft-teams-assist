@@ -1,0 +1,9 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <RootNamespace>Microsoft.Teams.Assist.Shared</RootNamespace>
+    <AssemblyName>Microsoft.Teams.Assist.Shared</AssemblyName>
+  </PropertyGroup>
+
+</Project>

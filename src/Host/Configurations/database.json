@@ -1,0 +1,13 @@
+{
+  "DatabaseSettings": {
+    "Nexus_DBProvider": "mssql",
+    "Nexus_ConnectionString": "Server=localhost;Database=Microsoft.Teams.Assist.Nexus;Integrated Security=True;TrustServerCertificate=True;",
+
+    "AuditTrail_DBProvider": "mssql",
+    "AuditTrail_ConnectionString": "Server=localhost;Database=Microsoft.Teams.Assist.AuditTrail;Integrated Security=True;TrustServerCertificate=True;",
+
+    "Application_DBProvider": "mssql",
+    "Application_ConnectionString": "Server=localhost;Database=Microsoft.Teams.Assist.Default;Integrated Security=True;TrustServerCertificate=True;"
+
+  }
+}

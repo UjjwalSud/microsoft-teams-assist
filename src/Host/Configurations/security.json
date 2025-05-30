@@ -1,0 +1,25 @@
+{
+  "SecuritySettings": {
+    "Provider": "Jwt",
+    "RequireConfirmedAccount": true,
+    "JwtSettings": {
+      "key": "eyJhbGciOiJIUzI1NiJ9.eyJSb2xlIjoiQWRtaW4iLCJJc3N1ZXIiOiJJc3N1ZXIiLCJVc2VybmFtZSI6IkphdmFJblVzZSIsImV4cCI6MTcwOTU0ODMyNiwiaWF0IjoxNzA5NTQ4MzI2fQ.Do9IRXQJrgwr5Tv4gbr7RA5NbCAWfmTtX-E9T6eAgHU",
+      "tokenExpirationInMinutes": 60,
+      "refreshTokenExpirationInDays": 7
+    },
+    "AzureAd": {
+      "Instance": "https://login.microsoftonline.com/",
+      "Domain": "<Your Domain>.onmicrosoft.com",
+      "TenantId": "organizations",
+      "ClientId": "<Your ClientId of the AzureAd Server App Registration>",
+      "Scopes": "access_as_user",
+      "RootIssuer": "https://sts.windows.net/<Your AzureAd TenantId>/"
+    },
+    "Swagger": {
+      "AuthorizationUrl": "https://login.microsoftonline.com/organizations/oauth2/v2.0/authorize",
+      "TokenUrl": "https://login.microsoftonline.com/organizations/oauth2/v2.0/token",
+      "ApiScope": "api://<Your ClientId of the AzureAd Server App Registration>/access_as_user",
+      "OpenIdClientId": "<Your ClientId of the AzureAd Client App Registration>"
+    }
+  }
+}

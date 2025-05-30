@@ -1,0 +1,1 @@
+﻿global using Microsoft.Teams.Assist.Domain.Common.Contracts;
